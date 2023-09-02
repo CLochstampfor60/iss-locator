@@ -4,6 +4,8 @@ config.js
 # Local Netlify folder
 netlify
 .netlify
+
+netlify.toml
 node_modules
 .env
 .vscode

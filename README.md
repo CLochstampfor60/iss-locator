@@ -35,6 +35,7 @@
 - Adjust the toggle-measurement button to remain fixed/'sticky' within the measurement conversion while the ISS location is dynamically updates using set the setIntervall() function. Currently the measurement 'sticks' to the browser for the entire setInterval(). When the time-elapses (currently 2 seconds), the Javascript resets and runs again anew defaulting to the metric measurement method.
 
 - Adjust the boldness of the Altitude and Velocity words at the top of the page (matching the Latitude and Longitutde styling).
+- Font Awesome style: to enable this while protecting the API key, will need to move this web app to server.
 
 - Once the above changes are complete, refractor and remove remaining unncessary commented sections and code from index.html and script.js.
 
