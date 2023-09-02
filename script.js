@@ -13,7 +13,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Creating a custom Icon Marker
 const issIcon2 = L.icon({
   // Font Awesome satellite icon.
-  iconUrl: 'sat2.png',
+  iconUrl: 'image-placeholders/sat2.png',
   iconSize: [50, 32],
   iconAnchor: [25, 16],
   html: '#',
@@ -60,7 +60,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Creating a custom Icon Marker
 const issIcon = L.icon({
   // Font Awesome satellite icon.
-  iconUrl: 'sat2.png',
+  iconUrl: 'image-placeholders/sat2.png',
   iconSize: [50, 32],
   iconAnchor: [25, 16],
   html: '#',
