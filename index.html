@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- leaflet css-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/FONT_AWESOME_API.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>ISS Locator</title>
+  </head>
+  <body>
+    <!-- Geopositioning coordinates, dynamically updated. -->
+
+    <div class="grid-container">
+      <h1>Where is the ISS?</h1>
+
+      <!-- <div class="button-row"></div> -->
+
+      <div class="row">
+        <div class="coordinates">
+          Latitude:&nbsp;<span id="lat"></span>°<br />
+        </div>
+        <div class="coordinates">
+          Longitude:&nbsp;<span id="lon"></span>°<br />
+        </div>
+
+        <div class="coordinates2">Altitude:&nbsp;<span id="alt"></span></div>
+        <div class="coordinates3" style="display: none">
+          Altitude:&nbsp;<span id="alt"></span>
+        </div>
+        <div class="coordinates2">
+          Velocity:&nbsp;<span id="vel"></span><span id="units"></span>
+        </div>
+        <div class="coordinates3" style="display: none">
+          Velocity:&nbsp;<span id="vel"></span><span id="units"></span>
+        </div>
+        <button class="switch-button">Metric</button>
+      </div>
+    </div>
+
+    <!-- Map anchor -->
+    <div id="issMap2"></div>
+    <br />
+    <div id="issMap"></div>
+    <br />
+    <hr />
+    <br />
+
+    <footer class="grid-container">
+      <div class="row">
+        <div class="copyright_title">
+          <i
+            class="fa-solid fa-code fa-spin fa-md"
+            style="color: #709deb; --fa-animation-duration: 4s"
+          ></i>
+          &nbsp; &copy; Locky's Media Mania 2023 &nbsp;
+          <i
+            class="fa-solid fa-code fa-spin fa-spin-reverse fa-md"
+            style="color: #709deb; --fa-animation-duration: 4s"
+          ></i>
+        </div>
+        <div class="copyright_title">
+          <a
+            href="https://wheretheiss.at/"
+            target="_blank"
+            style="text-decoration: none; color: black"
+            >&copy;&nbsp; "WHERE'S THE ISS AT?" (API)</a
+          >
+        </div>
+        <div class="copyright_title">
+          <a
+            href="https://spotthestation.nasa.gov/tracking_map.cfm"
+            target="_blank"
+            style="text-decoration: none; color: black"
+            >&copy;&nbsp; NASA: International Space Station</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
