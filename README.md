@@ -26,9 +26,9 @@
 
 ## Developer's Submitted Work:
 
-- URL of the <u>deployed application</u>: <a href="https://clochstampfor60.github.io/iss-locator/" target="_blank">ISS Locator</a>
+- URL of the <u>deployed application</u>: <a href="https://clochstampfor60.github.io/iss-locator/" target="_blank" rel="noopener noreferrer">ISS Locator</a>
 
-- Developer's GitHub Repository <a href="https://github.com/CLochstampfor60?tab=repositories" target="_blank"><u>CLocky60</u></a>
+- Developer's GitHub Repository <a href="https://github.com/CLochstampfor60?tab=repositories" target="_blank" rel="noopener noreferrer"><u>CLocky60</u></a>
 
 ## Future Adjustments & Developments:
 
